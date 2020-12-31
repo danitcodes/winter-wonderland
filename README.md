@@ -11,7 +11,7 @@
 
 ## Description
 
-This application is a personal project I made as an electronic thank you card to the two advisors who helped secure grant funding to cover my entire school costs at Epicodus Coding School. I wanted to create an application using some of Adobe's software, which is where the backdrop comes from - my very first Photoshop digital painting project. I set out to create some dynamic elements to the page, largely with just Sass & HTML. This was also my first Sass project. There's a touch of Javascript sprinkled in to create weather buttons that slide in a thank you message to them, and that turn the snow and clouds "on" and "off". 
+This application is a personal project I made as an electronic thank you card to the two advisors who helped secure grant funding to cover my school costs at Epicodus Coding School. I wanted to create an application using some of Adobe's software, which is where the backdrop comes from - my very first Photoshop digital painting project. I set out to create some dynamic elements to the page, largely using just Sass & HTML. This was also my first Sass project. There's a touch of Javascript sprinkled in to create weather buttons that also slide a thank you message in view, and that turn the snow and clouds "on" and "off". 
 
 ---
 
