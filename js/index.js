@@ -1,15 +1,14 @@
 $(document).ready(function() {
+  event.stopPropagation();
   event.preventDefault();
   $("#snowButton").click(function() {
     $("#snowToggle").fadeToggle();
+    $("#happyHolidays").fadeToggle();
+    $("#snowButton").fadeOut();
   });
   $("#cloudsButton").click(function() {
     $("#cloudsToggle").fadeToggle();
-  });
-  $("#holidaysButton").click(function() {
-    $("#happyHolidays").fadeToggle();
-  });
-  $("#thankYouButton").click(function() {
     $("#thankYouMsg").fadeToggle();
+    $("#cloudsButton").fadeOut();
   });
 });
