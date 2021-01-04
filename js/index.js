@@ -1,8 +1,14 @@
-// $(document).ready(function() {
-//   $("button#cloudsButton").click(function() {
-//     $("#cloudsButton").toggle();
-//   })
-//   $("button#snowButton").click(function() {
-//     $("#snowButton").toggle();
-//   })
-// })
+$(document).ready(function() {
+  event.stopPropagation();
+  event.preventDefault();
+  $("#snowButton").click(function() {
+    $("#snowToggle").fadeToggle();
+    $("#happyHolidays").fadeToggle();
+    $("#snowButton").fadeOut();
+  });
+  $("#cloudsButton").click(function() {
+    $("#cloudsToggle").fadeToggle();
+    $("#thankYouMsg").fadeToggle();
+    $("#cloudsButton").fadeOut();
+  });
+});

@@ -2,15 +2,17 @@
 <html lang="en-US">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <!-- <script src='https://code.jquery.com/jquery-2.2.4.mis.js'></script> -->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="scss/input.css">
-    <!-- <script src="js/index.js"></script> -->
+    <script src="js/index.js"></script>
     <title>Winter Night-scape</title>
   </head>
   <body>
     <div class="wrapper">
-      <div class="snowToggle">
+      <div id="snowToggle">
         <div class="snow layer1 a"></div>
         <div class="snow layer1"></div>
         <div class="snow layer2 a"></div>
@@ -18,13 +20,33 @@
         <div class="snow layer3 a"></div>
         <div class="snow layer3"></div>
       </div>
-      <div class="halfView">
-        <div class="cloudsToggle">
-          <div class="clouds"></div>
-        </div>
-        <div class="stars small"></div>
-        <div class="stars medium"></div>
-        <div class="stars large"></div>
+      <div id="cloudsToggle">
+        <div class="clouds"></div>
+      </div>
+      <div class="stars small"></div>
+      <div class="stars medium"></div>
+      <div class="stars large"></div>
+      <button class="btn btn-secondary" id="snowButton" type="submit">#1 - Winter Weather</button>
+      <button class="btn btn-secondary" id="cloudsButton" type="submit">#2 - To Darcie & Tom</button>
+      <div id="happyHolidays">
+        <h1>Happy Holidays!</h1>
+      </div>
+      <div id="thankYouMsg">
+        <p>Dear Tom & Darcie,</p>
+        <p>
+          I wanted to take a moment and do something to say a very sincere thank you to you both for helping secure grant funding to cover the costs of my program at Epicodus. The best way I figured I could do so was with my new skill set.
+        </p>
+        <p>
+          To share a little about this project, the heavy lifting of this project is accomplished in a design styling language called Sass - a language that I hadn't actually worked with until I set out to do this project. Additionally, the background image is a digital painting I created in Photoshop for this application - this was another tool I worked with for the first time, and it might just be my new favorite artistic medium. There are several animated elements that I created through the styling language alone - including the twinkling stars in the background, and animated snow and clouds softly blowing.
+        </p>
+        <p>
+          The work that you did to continue searching for more funding for me, Darcie, and more people to provide funding for, Tom, has lifted a significant financial burden off of me. Being no stranger to student debt already, I truly can't express my gratitude enough to you both and your advocacy for me. Thank you for your dedication to your job and the students you represent and support.
+        </p>
+        <p>
+          I hope you both had a peaceful, cozy holiday season!
+        </p>
+        <p>Cheers,</p>
+        <p>Danielle Thompson</p>
       </div>
     </div>
   </body>
