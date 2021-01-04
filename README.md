@@ -5,7 +5,7 @@
 </div>
 <p align="center">Personal project working with Photoshop, Sass & HTML, & Javascript, 12.30.2020</p>
 <p align="center">By Danielle Thompson</p>
-<img align="center" src="images/Nighttime-Mtns.png" alt="Photoshop painting depicting a nighttime setting in a forested mountain area.">
+<img align="center" src="./assets/images/Nighttime-Mtns.png" alt="Photoshop painting depicting a nighttime setting in a forested mountain area.">
 
 ---
 
