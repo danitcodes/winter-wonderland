@@ -14,12 +14,7 @@ body {
   /* background: 201721; */
 }
 
-// .halfView {
-//   position: relative;
-//   height: 57%;
-// }
-
-#snowToggle, #cloudsToggle, #thankYouMsg {
+#snowToggle, #cloudsToggle, #thankYouMsg, #happyHolidays {
   display: none;
 }
 
@@ -32,16 +27,27 @@ h1 {
   text-align: center;
   border-radius: 25px;
   padding: 10px;
+  margin: 70px;
 }
 
 #thankYouMsg {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   font-style: bold;
-  background-color: rgba(128, 128, 128, .9);
-  width: 250px;
+  background-color: rgba(128, 128, 128, .7);
+  margin: 60px;
   border-radius: 25px;
   padding: 10px;
+}
+
+#snowButton, #cloudsButton {
+  letter-spacing: 2px;
+  font-family: 'Parisienne', cursive;
+  font-size: 20px;
+  opacity: .7;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 80px;
 }
 
 //Loop to randomize snow particle positioning
