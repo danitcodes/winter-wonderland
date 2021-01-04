@@ -30,5 +30,12 @@ Coming soon!
 
 Coming soon!
 
+### References for weather elements
+
+- [Pure CSS Snow Effect](https://redstapler.co/pure-css-snow-fall-effect/)
+- [Pure CSS night sky](https://codepen.io/ianfhunter1/pen/oNgOzrg)
+- [Night sky with twinkling stars](https://www.script-tutorials.com/night-sky-with-twinkling-stars/)
+- Clouds from [Night sky with twinkling stars - CSS3 only](https://codepen.io/stealy/pen/zYxXpza)
+
 ### Legal, or License
 _MIT_ Copyright (c) 2020 *_Danielle Thompson_*
