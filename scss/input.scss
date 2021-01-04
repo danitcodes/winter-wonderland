@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -12,13 +14,34 @@ body {
   /* background: 201721; */
 }
 
-.halfView {
-  position: relative;
-  height: 57%;
+// .halfView {
+//   position: relative;
+//   height: 57%;
+// }
+
+#snowToggle, #cloudsToggle, #thankYouMsg {
+  display: none;
 }
 
-.snowToggle, .cloudsToggle {
-  display: none;
+h1 {
+  font-family: 'Parisienne', cursive;
+  letter-spacing: 5px;
+  font-style: bold;
+  background-color: rgba(128, 128, 128, .7);
+  width: 350px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#thankYouMsg {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  font-style: bold;
+  background-color: rgba(128, 128, 128, .9);
+  width: 250px;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 //Loop to randomize snow particle positioning
