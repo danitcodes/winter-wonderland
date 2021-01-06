@@ -21,14 +21,21 @@ This application is a personal project I made as an electronic thank you card to
 - Sass
 - HTML
 - Javascript
-
-## Color Theme
-
-Coming soon!
+- Git
+- VS Code
 
 ## Installation Requirements
 
-Coming soon!
+To view the live page, go [here](https://dani-t-codes.github.io/winter-wonderland/). Otherwise, follow the instructions below.
+
+### Cloning
+
+1. On the main project repository page, click the green 'Code' button. 
+2. From here, you can either: 
+  - Download the zip file and open, or
+  - Copy the https link for the repository, and enter the command `git clone https://github.com/dani-t-codes/winter-wonderland.git` in your Terminal or CMD to clone the repository to your desktop.
+3. Run the command `cd winter-wonderland`.
+4. If using VS Code, you can open the project through your Terminal/CMD by running the command `code .` Otherwise, find and open the folder in the code or text editor of your choice.
 
 ### References for weather elements
 
