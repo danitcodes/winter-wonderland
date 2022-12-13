@@ -26,7 +26,7 @@ This application is a personal project I made as an electronic thank you card to
 
 ## Installation Requirements
 
-To view the live page, go [here](https://dani-t-codes.github.io/winter-wonderland/). Otherwise, follow the instructions below.
+To view the live page, go [here](https://danitcodes.github.io/winter-wonderland/). Otherwise, follow the instructions below.
 
 ### Cloning
 
